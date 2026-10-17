@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "hub": "node hub/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@clerk/express": "^2.1.80",
+    "@solana/web3.js": "3.1.0",
+    "bcrypt": "^6.0.0",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.24.5",
+    "nodemailer": "^10.1.2",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "ws": "^8.22.0"
+  }
+}

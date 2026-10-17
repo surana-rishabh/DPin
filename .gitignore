@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Environment and signing keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+privateKey.txt
+validator-private-key.txt
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
